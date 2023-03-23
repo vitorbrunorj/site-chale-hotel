@@ -15,7 +15,7 @@
 * a {
   text-decoration: none;
   display: block;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 * button {
   cursor: pointer;
@@ -49,8 +49,7 @@ a.reserva:hover {
 }
 
 #container {
-  border: 2px solid red;
-  background: #ede9cc;
+  background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
   margin: 0 auto;
   min-width: 740px;
   max-width: 1180px;
@@ -123,10 +122,34 @@ a.reserva:hover {
   font-size: 0.8em;
   padding: 5px;
   color: #6e672c;
-  line-height: 20px;
+  line-height: 22px;
 }
 #menu ul#navegacao a:hover {
   background: #fdf6be;
+}
+
+.conteudo {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#area-principal {
+  float: left;
+  width: 50%;
+  background: url(../imagens/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px;
+}
+
+#area-lateral {
+  float: right;
+  width: 50%;
+  background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0px;
+}
+
+#rodape {
+  clear: both;
+  border: 1px solid red;
 }
 
 .btn-reserva {

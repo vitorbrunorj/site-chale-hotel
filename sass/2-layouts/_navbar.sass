@@ -1,8 +1,8 @@
 @use '../1-base/variables'
 
 #container
-    border: 2px solid red
-    background: variables.$bg-container
+
+    background: variables.$bg-container url(../imagens/bg-container.png) top center repeat-y
     margin: 0 auto
     min-width: 740px
     max-width: 1180px
@@ -70,18 +70,33 @@
     ul#navegacao
         float: left
 
-      
         a
             text-transform: uppercase
             font-size: 0.8em
             padding: 5px
             color: #6e672c
-            line-height: 20px
-            
+            line-height: 22px
 
             &:hover
                 background: #fdf6be
 
+.conteudo
+    margin: 0 auto
+    width: 90%
+
+#area-principal
+    float: left
+    width: 50%
+    background: url(../imagens/bg-area-principal.png) top left repeat-x
+    padding: 15px 0px
 
 
-            
+#area-lateral
+    float: right
+    width: 50%
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x
+    padding: 20px 0px
+
+#rodape
+    clear: both
+    border: 1px solid red
