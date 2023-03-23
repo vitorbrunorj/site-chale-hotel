@@ -38,8 +38,14 @@ a.reserva {
   text-transform: uppercase;
   background: #a29750;
   color: #fff5b0;
+  border-radius: 10px;
   padding: 5px 10px;
   float: right;
+}
+a.reserva:hover {
+  background-color: transparent;
+  border: 1px solid #a29750;
+  color: #a29750;
 }
 
 #container {
@@ -92,7 +98,7 @@ a.reserva {
   border-bottom: 1px solid #b5ab56;
   border-top: 1px solid #b5ab56;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 5.1px;
   font-size: 0.7em;
   color: #8b8448;
 }
@@ -101,8 +107,30 @@ a.reserva {
   line-height: 2.1em;
 }
 
-.btn-submit {
-  width: 120px;
+#menu {
+  margin-top: 15px;
+}
+#menu .depoimento {
+  width: 226px;
+  height: 164px;
+  float: right;
+}
+#menu ul#navegacao {
+  float: left;
+}
+#menu ul#navegacao a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #6e672c;
+  line-height: 20px;
+}
+#menu ul#navegacao a:hover {
+  background: #fdf6be;
+}
+
+.btn-reserva {
+  width: 60px;
   background-color: #de003e;
   color: #fff;
   border-radius: 10px;
@@ -111,9 +139,9 @@ a.reserva {
   font-size: 0.7em;
   transition: 0.5s;
   display: block;
-  margin: 10px auto;
+  margin: 0 auto;
 }
-.btn-submit:hover {
+.btn-reserva:hover {
   background-color: transparent;
   color: #de003e;
   cursor: pointer;
