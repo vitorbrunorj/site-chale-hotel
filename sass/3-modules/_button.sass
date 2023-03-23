@@ -1,0 +1,19 @@
+@use '../1-base/variables'
+
+.btn-submit
+    width: 120px
+
+    background-color: variables.$bg-mark-page
+    color: variables.$color-white
+    border-radius: 10px
+    border: 2px solid variables.$bg-mark-page
+    text-transform: uppercase
+    font-size: 0.7em
+    transition: .5s
+    display: block
+    margin: 10px auto
+
+    &:hover
+        background-color: transparent
+        color: variables.$bg-mark-page
+        cursor: pointer
