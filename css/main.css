@@ -21,10 +21,14 @@
   cursor: pointer;
 }
 * h2 {
+  font-size: 1.1em;
+  color: #7d7640;
+  padding: 5px 0px;
+}
+
+p {
   font-size: 1em;
-  background: #294c71;
-  color: #fff;
-  padding: 5px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -146,10 +150,37 @@ a.reserva:hover {
   background: url(../imagens/bg-area-lateral.png) top left repeat-x;
   padding: 20px 0px;
 }
+#area-lateral #beneficios li {
+  padding: 8px;
+  border-bottom: 1px solid #f3efcb;
+  height: 6em;
+}
+#area-lateral #beneficios li a {
+  font-size: 0.8em;
+}
+#area-lateral #beneficios li a p {
+  font-size: 0.8em;
+  color: #000;
+}
+#area-lateral #beneficios li a h3 {
+  font-size: 1em;
+  color: #615b2d;
+  padding: 5px 0px;
+  background: url(../imagens/ornamento.png) no-repeat center right;
+}
+#area-lateral #beneficios li a img {
+  float: left;
+  margin-right: 20px;
+}
+#area-lateral #beneficios li:hover {
+  background: #f6f3d6;
+}
 
 #rodape {
   clear: both;
-  border: 1px solid red;
+  padding: 16px;
+  background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+  color: #7d7640;
 }
 
 .btn-reserva {
